@@ -13,10 +13,15 @@ Named Pipe는 Pipe의 단점을 해결한, Pipe의 확장이라고 할 수 있�
 
 ### 도커 설치 관련 페이지들
 (도커 설치 사이트)[https://www.docker.com/]
-
-
 (도커 참조 사이트)[https://www.oss.kr/info_techtip/show/2e408efc-900d-4a09-82e9-06613db8f591]
 
 cmd에서 wsl 명령어 사용하여 업데이트함. docker 설치 완료후 회원가입완료
 
 wsl : 윈도우용 리눅스 하위시스템
+
+https://docs.docker.com/language/python/build-images/
+
+
+## 컨테이너 구축
+새로운 GO language를 사용해서 구축해보려고 한다.
+[GO 설치 설명서](https://docs.docker.com/language/golang/build-images/)

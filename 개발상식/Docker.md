@@ -19,5 +19,5 @@
 9. 윈도우 파워쉘로 명령어를 쓰니 오류가 엄청 난다.![오류화면](https://github.com/POONGNHA/Interview_Study/assets/105198445/4dd2700b-7fb9-4d57-8d6e-6f79d7e4285f)
    걍 npm audit fix --force로 전부 실행시켜버렸다.
    찾아보니 vunarbility라고 해서 취약점이 발견된 소프트웨어나 버전업이 필요한 프로그램들을 audit으로 fix하라고 권장하는 듯. 그냥 설치해도 무방
-   
-10. 
+10. 따라하는데 touch명령어를 못알아쳐먹는다. npm 설정이 잘못되어서 그런거같다.
+![1312](https://github.com/POONGNHA/Interview_Study/assets/105198445/818c57fc-d931-4aca-9170-5d68d99d64f3)

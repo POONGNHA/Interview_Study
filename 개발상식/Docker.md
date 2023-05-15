@@ -15,5 +15,9 @@
 7. GO보다는 비동기방식에 백과 프론트 둘다 작성할 수 있는 node js 를 사용하기로 하였다. go보다 더 많이 사용하기도 하고,
    백과 프론트 둘 다 가능한 언어라는게 매력이라 생각해서 한번 배워볼려고 한다.
    노마드 코더가 사용하는 거 보면 한번쯤 사용해볼만한 언어라고 생각됨 [Node js](https://nodejs.org/ko/download)
+8. (node js로 도커 구축하기)[https://docs.docker.com/language/nodejs/build-images]
+9. 윈도우 파워쉘로 명령어를 쓰니 오류가 엄청 난다.![오류화면](https://github.com/POONGNHA/Interview_Study/assets/105198445/4dd2700b-7fb9-4d57-8d6e-6f79d7e4285f)
+   걍 npm audit fix --force로 전부 실행시켜버렸다.
+   찾아보니 vunarbility라고 해서 취약점이 발견된 소프트웨어나 버전업이 필요한 프로그램들을 audit으로 fix하라고 권장하는 듯. 그냥 설치해도 무방
    
-9.
+10. 

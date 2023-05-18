@@ -22,4 +22,5 @@
 10. 따라하는데 touch명령어를 못알아쳐먹는다. npm 설정이 잘못되어서 그런거같다라고는 하는데 nodejs가 환경변수에도 있는거 보면 왜 안되는지 이해가 안된다.
 ![1312](https://github.com/POONGNHA/Interview_Study/assets/105198445/818c57fc-d931-4aca-9170-5d68d99d64f3)
 11. node js의 npm은 자동으로 repository 의 보악취약성을 검증해주고, 자격미달인 경우 업데이트를 요구한다. 그것이 npm audit fix인 것이고, audit fix가 먹지 않는 저 예제는 제작자가 보안업데이트를 
-하지 않고있기 때문에 현재 에러가 발생하고 있는것으로 추정된다. !package.json을 확인해보라는 의견이 있어서 그것을 확인해보는것이 해결방법일듯하다
+하지 않고있기 때문에 현재 에러가 발생하고 있는것으로 추정된다. 
+12. 해결방법은 설치시 npm install --no-audit을 사용하거나, package.json을 확인해야 할듯하다. 

@@ -25,3 +25,4 @@ https://docs.docker.com/language/python/build-images/
 ## 컨테이너 구축
 새로운 GO language를 사용해서 구축해보려고 한다.
 [GO 설치 설명서](https://docs.docker.com/language/golang/build-images/)
+하려다가 node js 사용해보는것 쪽으로 생각해봄

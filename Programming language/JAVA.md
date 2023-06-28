@@ -34,3 +34,8 @@ Integer, Float, Boolean 등등
 Field member : 필드에서 직접값을 입력(x) parmeter형태로 주고받아야 오류가 없다
 동기화(Synchronized) : 스레드간 동기화를 하면 순차적으로 실행된다.
 ThreadLocal : 스레드 간섭이 없어야하는 데이터에 사용
+
+### 해쉬
+해쉬는 인덱스를 같이 저장하는 배열
+
+해쉬 

@@ -29,4 +29,14 @@ Fn이나 Method 내부의 지역변수를 선언할때는 var를 사용하고, C
 개발자가 null을 참조할 수 없도록 하는 기능
 nullsafty가 없으면 NoSuchMethodError 같은 에러가 발생하게됨
 
+default 값은 non-nullable으로 설정되어있고, 변수 선언시 type뒤에 ?를 붙여주면 이게 nullable이라고 컴파일러가 생각하게 된다.
+
+선언해주고 변수이름?.method() 라고 쓰면 "변수이름이 null이 아니라면"이라는 확인을 끝낸거다.
+
+if (variable != null){
+
+  variable.method() 
+  
+} 이것과 동일한 의마라고 생각하면 된다.
+
 

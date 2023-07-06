@@ -86,6 +86,30 @@ dart 에서는 변수를 담을 때 doller sign을 사용하여 $variable로 표
 ## Fat arrow syntax (23'07'05)
 num plus(num a, num b) => a+b; 라는 예시처럼 => 가 있으면 바로 뒤에 값을 리턴한다
 
+---------------------------------------------------------------------------------------
+## named Parameter (23'07'06)
+대부분의 언어들이 Function 선언할때 받는 파라미터도 설정하는데, dart는 함수선언할 때 이 파라미터에 value를 넣어서 초기값을 설정해주는 것이 가능함
+
+2번째 방법으로는 required String 이런 식으로 파라미터를 선언해주면 변수가 non-nullable이 되고, 함수에 필수적으로 파라미터를 넣어주어야 오류가 없음.
+
+또한 파라미터를 key:value 형식으로 넣어주는게 가능함. non-positional parameter 가 가능하다는 뜻.
+
+---------------------------------------------------------------------------------------
+## Optional Positional Parameter (23'07'06)
+[String? country = 'cuba'] 이런 식으로 표현하면 함수에서 optional로 불러올 수 있는 parameter라는 뜻임.
+
+또, country가 cuba라는 key, value를 가지게 되므로 non-positional 하게 parameter를 사용할 수 있는거임.
+
+---------------------------------------------------------------------------------------
+## QQ Operator와 QQ equals 또는 QQ assigned operator (23'07'06)
+원래는 3항연산자를 사용해서 name != null ? name.toUpperCase() : 'nullName'
+null일수 있는 값 ?? null일 때 들어갈 초기값
+
+QuestionMark QuestionMark라는 뜻
 
 
+param ??= data 는 만약 param 이라는게 null이라면 data를 넣어주라는 뜻임.
 
+---------------------------------------------------------------------------------------
+## typedef (23'07'06)
+자료형에 alias를 붙일 수 있게 해주는거

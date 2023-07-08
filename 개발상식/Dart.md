@@ -123,7 +123,7 @@ parameter를 non-positional로 넣을 수 있음. 이걸 Named Constructor Param
 
 또, ConstructorName.MethodName() : 형식으로 :뒤에 초기화 할 변수들을 선언하고 ; 로 마무리하면 그것이 Named Constructor이라고 하는것이다.
 
-Constructor를 인스턴스로 만들어주면서 초기화를 골라서 해줄 수 있는것이 이 기능의 핵심인듯 하다.
+Constructor를 인스턴스로 만들어주면서 Properties를  초기화를 골라서 해줄 수 있는것이 이 기능의 핵심인듯 하다.
 
 ---------------------------------------------------------------------------------------
 

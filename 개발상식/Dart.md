@@ -117,7 +117,7 @@ param ??= data 는 만약 param 이라는게 null이라면 data를 넣어주라�
 ---------------------------------------------------------------------------------------
 ## NamedConstructor (23'07'06)
 
-Dart는 constructor의 args부분에 this를 추가할 수 있고, Constructor( {args1, args2, args3 }) 이런식으로 해주면
+Dart는 constructor의 args부분에 this를 추가할 수 있고, Constructor( {required args1,required args2,required args3 }) 이런식으로 해주면
 
 parameter를 non-positional로 넣을 수 있음.
 

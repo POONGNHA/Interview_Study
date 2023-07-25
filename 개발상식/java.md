@@ -16,3 +16,8 @@ JSON을 STRING으로 받아 FILEWRITE를 BUFFERED READER 객체 안에 넣고 UT
 ## SpringFramework Message (23'07'18)
 회사에서 만들어 서비스하는 서울시청 웹 표준화 사업 back에서 통신을 spring의 message로 하기에 찾아보았다.
 핵심은 payload를 내부에서 들고 전달할 수 있게해주는 Container같은 역할을 한다는 것을 기억하면 될 것이다.
+
+
+## String + * (23'07'25)
+java에 String에 null을 더하거나 ""을 더하면 String으로 붙어서 나온다.
+쉽지만 까먹기 쉬운 것

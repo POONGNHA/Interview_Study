@@ -10,6 +10,9 @@
 ## ACID (23'07'31)
 
 Atomicity(원자성) all or nothing
+
 Consistency(일관성) INTEGER 형식에 문자열 저장 안되는 것
+
 Isolation(고립성) 비동기하면 동시데이터 변조가 일어날 수 있기때문에 그걸 막는것
+
 Durability(영구성) 비휘발성 메모리에 DB를 보관해야함

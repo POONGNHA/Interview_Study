@@ -20,7 +20,7 @@ Durability(영구성) 비휘발성 메모리에 DB를 보관해야함
 -----------------
 ## NVL(args1, args2) (23'08'18)
 
-args1이 null이라면 args2를 출력하고, not null일경우 args1을 출력한다.
+args1이 null이라면 args1를 출력하고, not null일경우 args2을 출력한다.
 
 ---------------
 ## to_char() (23'08'18)

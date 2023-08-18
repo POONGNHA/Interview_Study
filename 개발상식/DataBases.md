@@ -25,3 +25,5 @@ args1이 null이라면 args1를 출력하고, not null일경우 args2을 출력�
 ---------------
 ## to_char() (23'08'18)
 날짜를 숫자, 문자열로 바꿔주는 함수
+
+TO_CHAR(SYSDATE, 'YYYY-MM-DD') 이런식으로 사용함

@@ -2,7 +2,16 @@
 Flutter & Dart engine doesnt communicate with operating system directly. Flutter framework did it.
 
 -------------
-## state (23'08'17)
+## state (23'08'17, 23'08'25)
+
+state란 쓰이는 데이터 라고 할 수 있겠다.
+
+app의 state는 app에서 사용되는 데이터를 의미하는 것이고, widget에서 사용되는 state는 widget의 data를 가지고있는 데이터가 widget state이다.
+
+stateless는 데이터가 변경되지 않는 것.
+
+
+
 
 플러터의 기본인 위젯, 그 위젯이 빌드될때 sync하게 읽히는것이 state이고, widget의 life cycle이 끝나기 전까지 변경될 수 있는것이 state이다. 
 
